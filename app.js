@@ -62,6 +62,10 @@ app.get("/insta/explore", (req, res) => {
 app.get("/insta/thread", (req, res) => {
   res.render("thread.ejs");
 });
+app.all("*", (req, res, next) => {
+  res.render("home.ejs");
+  next(new errorHandler(404, "Page not found"));
+});
 
 app.listen(port, () => {
   console.log(`server is listing at port: ${port}`);
