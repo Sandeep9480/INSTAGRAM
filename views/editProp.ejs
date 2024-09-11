@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="/public/edit.css" />
+  </head>
+  <body style="text-align: center; background-color: rgba(23, 18, 18, 0.5)">
+    <h1>Edit your profile</h1>
+    <form method="post" action="/insta?_method=PATCH" style="margin-top: 10px">
+      <input
+        type="text"
+        placeholder="enter your username"
+        name="username"
+        style="margin-top: 10px; font-size: 25px; border-radius: 10px"
+      /><br />
+      <input
+        type="text"
+        placeholder="enter your name"
+        name="name"
+        style="margin-top: 10px; font-size: 25px; border-radius: 10px"
+      /><br />
+      <textarea
+        placeholder="enter your bio"
+        name="bio"
+        style="margin-top: 10px; font-size: 25px; border-radius: 10px"
+      >
+      </textarea
+      ><br />
+      <button
+        style="
+          margin-top: 10px;
+          font-size: 20px;
+          background-color: blue;
+          border-radius: 10px;
+        "
+        style=""
+      >
+        Edit
+      </button>
+    </form>
+  </body>
+</html>

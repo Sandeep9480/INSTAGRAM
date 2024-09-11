@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/home.css" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo" style="position: fixed">
+      <div class="head">
+        <h2>Instagram</h2>
+      </div>
+      <div class="logos">
+        <a href="/insta/home" class="a"><i class="fa-solid fa-house"></i>Home<br /><br /></a>
+        <i class="fa-solid fa-magnifying-glass"></i>Search<br /><br />
+        <a href="/insta/explore" class="explore"><i class="fa-brands fa-wpexplorer"></i>Explore</a><br /><br />
+        <i class="fa-brands fa-freebsd"></i>Reels<br /><br />
+        <i class="fa-solid fa-message"></i>Message<br /><br />
+        <i class="fa-regular fa-heart"></i>Notification<br /><br />
+        <i class="fa-solid fa-plus"></i>Create<br /><br />
+        <a href="/insta/profile" class="a"><i class="fa-regular fa-user"></i>Profile<br /><br />
+        </a>
+      </div>
+      <div class="logo-foot">
+        <a href="/insta/thread" class="explore"><i class="fa-brands fa-threads"></i>Threads</a><br /><br />
+        <i class="fa-solid fa-bars"></i>More
+      </div>
+    </div>
+    <div class="prof-info">
+      <div class="lo">
+        <img src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png" alt="" />
+      </div>
+
+      <% for(let user of info) {%>
+        <div class="info">
+          <div class="username">
+            <h2>@<%=user.username%>
+            </h2>
+            <a href="/insta/edit"><button>Edit Profile</button></a>
+            <button>View Archive</button>
+          </div>
+          <br />
+          <div id="post">
+            <p>posts</p>
+            <p>followers</p>
+            <p>following</p>
+          </div>
+          <br />
+          <div class="user-info">
+            <p style="margin-bottom: 0px;">
+              <%=user.name%>
+            </p><br>
+            <p style="margin-top: 0px;">
+              <%=user.bio%>
+            </p>
+
+          </div>
+        </div>
+    </div>
+    <%}%>
+      <div class="high">
+        <div class="add-high">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p>New</p>
+        <br />
+        <br />
+        <br />
+        <hr style="opacity: 0.2;" />
+      </div>
+  </div>
+  <div class="down-body">
+    <div class="nav">
+      <p>POSTS</p>
+      <p>SAVED</p>
+      <p>TAGGED</p>
+    </div>
+
+    <div class="last-div">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQw0tkxJeVjbcmIhGVeD_avHt6NlTGQvbvSEQSKgtSkzDOZIaFkUMLrQsgoHJS3J_WchY&usqp=CAU" />
+      <h1>Share Photos</h1>
+      <p>
+        When you share your Photos they will appear on your <br />
+      <p class="last-p">profile</p>
+      </p>
+      <a href="#">Share your first photo</a>
+    </div>
+  </div>
+</body>
+
+</html>

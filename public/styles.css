@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(255, 255, 255,0.1);
+    display: inline-block;
+}
+.prof-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.lo {
+    height: 160px;
+    width: 160px;
+    background-color: rgb(240, 248, 255,0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    margin-top: 50px;
+
+}
+.lo i {
+    font-size: 50px;
+}
+.lo img {
+    height: 195px;
+    width: 195px;
+    opacity: 0.2;
+}
+
+
+.l i {
+    font-size: 90px;
+    background-color: none;
+    border: none;
+    color: none;
+}
+.username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-info {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: start;
+}
+.info {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    font-family: calibri;
+    font-weight: 100;
+    opacity: 0.6;
+    
+}
+.username h2 
+{
+    margin-right: 30px;
+}
+.username button {
+    margin-left: 10px;
+    height: 35px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: rgb(240, 248, 255,0.2);
+    border: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255,0.7);
+    font-weight: 600;
+}
+
+#post {
+    font-family: calibri;
+    font-weight: 100;
+    margin-top: 0px;
+    
+}
+#post p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.fa-gear {
+    background-color: black;
+    
+}
+.high {
+    width: 60%;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+
+
+.add-high {
+    height: 90px;
+    width: 90px;
+    border: 1px solid rgb(255, 255, 255,0.3);
+    background-color: aliceblue;
+   
+    border-radius: 50%;
+    background-color: rgb(128, 128, 128,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.add-high i {
+   font-size: 40px;
+}
+.high p {
+    position: absolute;
+    left: 30px;
+    margin-top:15px ;
+    font-weight: 600;
+} 
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 410px;
+    left: 720px;
+}
+.nav p {
+    margin-right: 60px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+    font-family: Calibri;
+}
+
+.last-div {
+    width: 500px;
+    color: white;
+    position: absolute;
+    left: 730px;
+    top: 500px;
+    font-family:Calibri;
+}
+.last-div  img {
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    margin-left: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+    opacity: 0.2;
+    
+
+}
+.last-div h1 {
+    margin-left: 67px;
+    margin-top: 15px;
+}
+.last-div p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.last-div .last-p {
+    margin-left: 140px;
+    margin-top: 2px;
+}
+.last-div a {
+    margin-left: 85px;
+    margin-top: 15px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(61, 61, 213);
+    font-weight: 600;
+}
