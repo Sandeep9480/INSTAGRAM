@@ -64,7 +64,6 @@ app.get("/insta/thread", (req, res) => {
 });
 app.all("*", (req, res, next) => {
   res.render("home.ejs");
-  next(new errorHandler(404, "Page not found"));
 });
 
 app.listen(port, () => {
